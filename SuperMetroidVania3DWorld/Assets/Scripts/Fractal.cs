@@ -6,7 +6,8 @@ public class Fractal : MonoBehaviour {
 
     public Mesh mesh;
     public Material material;
-
+    public bool test;
+    //test
 
 
 	// Use this for initialization
