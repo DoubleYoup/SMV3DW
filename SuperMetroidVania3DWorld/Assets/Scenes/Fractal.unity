@@ -291,12 +291,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   meshes:
   - {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
-  - {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  - {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
   - {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
   material: {fileID: 2100000, guid: 6840c4f307c9a42df94b8fbb31d0796d, type: 2}
   maxDepth: 5
   childScale: 0.5
-  spawnProbablility: 0.7
+  spawnProbablility: 1
+  maxRatationSpeed: 50
+  maxTwist: 20
 --- !u!4 &1049606548
 Transform:
   m_ObjectHideFlags: 0
